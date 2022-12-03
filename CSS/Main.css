@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    background: rgb(211, 147, 8);
+}
+
+.container {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.container-img img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+
+.text p {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.button-group {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-group button {
+    width: 70px;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+button[id=button-no] {
+    position: relative;
+}
+
+button[id=button-no]:hover {
+    top: 100px;
+    left: 150px;
+}
+
+button[id=button-yes]:hover {
+    cursor: pointer;
+}
